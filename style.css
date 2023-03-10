@@ -4,39 +4,59 @@
 :before {
   box-sizing: border-box;
 }
+
 .container {
   border: 1px solid #bfd6e6;
   background-color: #dde9f3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
+
 .activity {
   margin: 10px;
   background-size: contain;
   width: 300px;
   height: 200px;
+  order: 3;
+  display: flex;
 }
 
 .read {
   background-image: url("img/read.jpg");
+  order: 4;
+  display: flex;
 }
 
 .cook {
   background-image: url("img/cook.jpg");
+  order: 1;
+  display: flex;
 }
 
 .code {
   background-image: url("img/code.jpg");
+  order: 5;
+  display: flex;
 }
 
 .family {
   background-image: url("img/family.jpg");
+  order: 2;
+  display: flex;
 }
 
 .netflix {
   background-image: url("img/netflix.jpg");
+  order: 6;
+  display: flex;
 }
 
 .sleep {
   background-image: url("img/sleep.jpg");
+  order: 7;
+  display: flex;
 }
 
 /* --------------- */
